@@ -10,7 +10,11 @@ Hello Everyone,
 •	MySQL  
 
 ## ✤ Tables Used:  
-•	PIZZA_SALES  
+•	Pizzas
+•	Pizza_types
+•	Orders
+•	Order_details
+
 
 ## ✤ Project Overview  
 The primary objectives of this project are:  
@@ -22,27 +26,31 @@ The primary objectives of this project are:
 
 ## ✤ Queries of the Project:  
  
-Q1:  Find the day with the highest total revenue and the corresponding revenue amount?  
+Q1:  Retrieve the total number of orders placed. 
 
-Q2:  Get the average order value (total_price) for each pizza category?  
+Q2:  Calculate the total revenue generated from pizza sales. 
 
-Q3:  Calculate the percentage contribution of each pizza category to the total revenue?  
+Q3:  Identify the highest-priced pizza 
 
-Q4:  Find the average quantity of pizzas ordered per order for each pizza size?  
+Q4:  Identify the most common pizza size ordered. 
 
-Q5:  Get the total revenue for each combination of pizza size and pizza category?  
+Q5:  List the top 5 most ordered pizza types along with their quantities.  
 
-Q6:  Identify the pizza that had the highest number of orders in the last month?  
+Q6:  Find the total quantity of each pizza category ordered.
 
-Q7:  Determine the correlation between order time and total revenue?  
+Q7: Determine the distribution of orders by hour of the day.  
 
-Q8:  Identify the top 3 most expensive pizzas (by unit price) and their total sales (quantity)?  
+Q8:  Find the category-wise distribution of pizzas
 
-Q9:  Calculate the cumulative revenue for each month?  
+Q9:  Calculate the average number of pizzas ordered per day 
 
-Q10:  Determine the most popular pizza size for each day of the week?  
+Q10: Determine the top 3 most ordered pizza types based on revenue
 
+Q11: Calculate the percentage contribution of each pizza type to total revenue
 
+Q11: Analyze the cumulative revenue generated over time.
+
+Q11: Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
 
 ## Conclusion:-
