@@ -30,7 +30,7 @@ This table shows the constituency-level results by state, including the leading 
 #### Constituency-wise Details:: 
 This table contains detailed voting information for each candidate in a parliamentary constituency, including the number of EVM and postal votes, total votes, and percentage of votes.
 
-#### states: 
+#### States: 
 This table contains state name and their ID.
 
 #### Example Data Points:
@@ -47,11 +47,11 @@ The data used in this analysis is sourced from:
 - News agencies
 - Other reliable sources
 
-The raw datasets are available in the `data/raw` directory.
+The raw datasets are available in the `DataBase` folder.
 
 ## Data Cleaning and Preprocessing
 
-Scripts and notebooks for data cleaning and preprocessing are located in the `scripts` and `notebooks` directories. These steps ensure the data is accurate, consistent, and ready for analysis.
+Data Cleaning is done in Excel. The data is accurate, consistent, and ready for analysis.
 
 
 ### Clone the  Repository
