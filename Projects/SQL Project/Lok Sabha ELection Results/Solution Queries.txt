@@ -1,0 +1,207 @@
+-- How many seats contested
+SELECT count(Parliament_Constituency) as Total_seats FROM constituencywise_results;
+
+
+-- Number of lok sabha seats in each state
+SELECT 
+    s.State AS State_name,
+    COUNT(sr.Parliament_Constituency) AS Total_seats
+FROM
+    states s
+        JOIN
+    statewise_results sr ON s.State_ID = sr.State_ID
+GROUP BY State_name
+ORDER BY Total_seats DESC;
+
+
+alter table partywise_results
+add column Alliance varchar(10);
+
+UPDATE partywise_results 
+SET 
+    Alliance = 'NDA'
+WHERE
+    Party IN (
+		'Bharatiya Janata Party - BJP' , 
+		'Telugu Desam - TDP',
+        'Janata Dal  (United) - JD(U)',
+        'Shiv Sena - SHS',
+        'Lok Janshakti Party(Ram Vilas) - LJPRV',
+        'Nationalist Congress Party - NCP',
+        'Janata Dal  (Secular) - JD(S)',
+        'Apna Dal (Soneylal) - ADAL',
+        'Asom Gana Parishad - AGP',
+        'Janasena Party - JnP',
+     ,    'Rashtriya Lok Dal - RLD',
+        'AJSU Party - AJSUP',
+        'Hindustani Awam Morcha (Secular) - HAMS',
+        'Sikkim Krantikari Morcha - SKM',
+        'United Peopleâ€™s Party, Liberal - UPPL'
+	);
+    
+UPDATE partywise_results 
+SET 
+    Alliance = 'I.N.D.I.A'
+WHERE
+    Party IN ('Indian National Congress - INC',
+                'Aam Aadmi Party - AAAP',
+                'All India Trinamool Congress - AITC',
+                'Bharat Adivasi Party - BHRTADVSIP',
+                'Communist Party of India  (Marxist) - CPI(M)',
+                'Communist Party of India  (Marxist-Leninist)  (Liberation) - CPI(ML)(L)',
+                'Communist Party of India - CPI',
+                'Dravida Munnetra Kazhagam - DMK',
+                'Indian Union Muslim League - IUML',
+                'Nat`Jammu & Kashmir National Conference - JKN',
+                'Jharkhand Mukti Morcha - JMM',
+                'Jammu & Kashmir National Conference - JKN',
+                'Kerala Congress - KEC',
+                'Marumalarchi Dravida Munnetra Kazhagam - MDMK',
+                'Nationalist Congress Party Sharadchandra Pawar - NCPSP',
+                'Rashtriya Janata Dal - RJD',
+                'Rashtriya Loktantrik Party - RLTP',
+                'Revolutionary Socialist Party - RSP',
+                'Samajwadi Party - SP',
+                'Shiv Sena (Uddhav Balasaheb Thackrey) - SHSUBT',
+                'Viduthalai Chiruthaigal Katchi - VCK'
+		);
+
+UPDATE partywise_results 
+SET 
+    Alliance = 'OTHER'
+WHERE Alliance is null;
+
+
+
+-- Total Seats Won by NDA Allianz Parties
+SELECT 
+	Party,
+    sum(Won) AS Seats_Won
+FROM
+    partywise_results 
+WHERE
+    Alliance = 'NDA'
+group by Party
+order by Seats_Won desc;
+
+
+-- Total Seats Won by I.N.D.I.A Allianz Parties
+SELECT 
+	Party,
+    sum(Won) AS Seats_Won
+FROM
+    partywise_results 
+WHERE
+    Alliance = 'I.N.D.I.A'
+group by Party
+order by Seats_Won desc;
+
+
+-- Which party alliance (NDA, I.N.D.I.A, or OTHER) won the most seats across all states?
+SELECT 
+    pr.Alliance, COUNT(cr.Parliament_Constituency) AS Seats_Won
+FROM
+    partywise_results pr
+        JOIN
+    constituencywise_results cr ON pr.Party_ID = cr.Party_ID
+GROUP BY Alliance
+ORDER BY Seats_Won DESC;
+
+
+-- Winning candidate's name, their party name, total votes, and the margin of victory for a specific constituency?
+
+SELECT 
+	sr.State,
+    cr.Constituency_Name,
+    cr.Winning_Candidate,
+    pr.Party,
+    cr.Total_Votes,
+    cr.Margin as Winning_Margin
+FROM
+    partywise_results pr
+        JOIN
+    constituencywise_results cr ON pr.Party_ID = cr.Party_ID
+        JOIN
+    statewise_results sr ON sr.Parliament_Constituency = cr.Parliament_Constituency
+WHERE
+    cr.Constituency_Name = 'medak';
+
+
+-- What is the distribution of EVM votes versus postal votes for candidates in a specific constituency?
+SELECT 
+    cr.Constituency_Name,
+    cd.Candidate,
+    cd.Party,
+    cd.EVM_Votes,
+    cd.Postal_Votes,
+    cd.Total_Votes
+FROM
+    constituencywise_details cd
+        JOIN
+    constituencywise_results cr ON cr.Constituency_ID = cd.Constituency_ID
+WHERE
+    cr.Constituency_Name = 'medak'
+    order by cd.EVM_Votes desc;
+
+
+-- Which parties won the most seats in a State, and how many seats did each party win?
+
+SELECT 
+    pr.Party, COUNT(cr.Constituency_ID) AS Seats_won
+FROM
+    statewise_results sr
+        JOIN
+    constituencywise_results cr ON 
+    cr.Parliament_Constituency = sr.Parliament_Constituency
+        JOIN
+    partywise_results pr ON pr.Party_ID = cr.Party_ID
+WHERE
+    sr.State = 'bihar'
+GROUP BY pr.Party
+ORDER BY Seats_won DESC;
+
+
+-- What is the total number of seats won by each party alliance (NDA, I.N.D.I.A, and OTHER) in each state for the India Elections 2024
+
+SELECT 
+    sr.State,
+    SUM(CASE
+        WHEN pr.Alliance = 'NDA' THEN 1
+        ELSE 0
+    END) AS 'NDA_Seats_won',
+    SUM(CASE
+        WHEN pr.Alliance = 'I.N.D.I.A' THEN 1
+        ELSE 0
+    END) AS 'I.N.D.I.A_Seats_won',
+    SUM(CASE
+        WHEN pr.Alliance = 'other' THEN 1
+        ELSE 0
+    END) AS 'Other_Seats_won',
+    count(cr.Constituency_ID) as Total_Seats
+FROM
+    partywise_results pr
+        JOIN
+    constituencywise_results cr ON cr.Party_ID = pr.Party_ID
+        JOIN
+    statewise_results sr ON sr.Parliament_Constituency = cr.Parliament_Constituency
+GROUP BY sr.State
+ORDER BY Total_Seats desc;
+
+
+-- Which candidate received the highest number of EVM votes in each constituency (Top 10)?
+SELECT 
+    sr.State,
+    cr.Constituency_Name,
+    cr.Winning_Candidate AS Candidate_Name,
+    pr.Party,
+    cd.EVM_Votes
+FROM
+    constituencywise_results cr
+        JOIN
+    constituencywise_details cd ON cd.Constituency_ID = cr.Constituency_ID
+        JOIN
+    partywise_results pr ON pr.Party_ID = cr.Party_ID
+        JOIN
+    statewise_results sr ON sr.Parliament_Constituency = cr.Parliament_Constituency
+ORDER BY cd.EVM_Votes DESC
+LIMIT 10;
