@@ -39,7 +39,7 @@ This Project contains an Excel-based project that involves data cleaning, data m
 - [P & L by Markets](https://github.com/guntasrikanth/Data_Analyst_Portfolio/blob/main/Projects/Excel%20Projects/AtliQ%20Sales%20%26%20Finance%20Report/Reports/P%20%26%20L%20Market.pdf)
 - [GM% by Quarters](https://github.com/guntasrikanth/Data_Analyst_Portfolio/blob/main/Projects/Excel%20Projects/AtliQ%20Sales%20%26%20Finance%20Report/Reports/GM%20%25%20by%20Quarters.pdf)
 
-## Technical & Soft Skills:
+## Technical Skills:
 - [x]	Proficiency in ETL methodology (Extract, Transform, Load).
 - [x]	Skills to generate a date table using Power Query.
 - [x]	Ability to derive fiscal months and quarters.
@@ -48,16 +48,16 @@ This Project contains an Excel-based project that involves data cleaning, data m
 - [x]	Utilizing DAX to create calculated columns.
 
 ## Soft Skills:
-- [x]	Refined understanding of Sales & Finance Reports
-- [x]	Designing user-centric reports with empathy in mind.
-- [x]	Optimization of report generation through meticulous fine-tuning.
-- [x]	Developing a systematic approach to devising a report building plan.
+- [x]	Improved understanding of Sales & Finance Reports.
+- [x]	Creating user-friendly reports with a focus on empathy.
+- [x]	Enhancing report generation by careful optimization.
+- [x]	Developing a structured plan for building reports.
 
 ## Why It Is Noteworthy
 - [x] **Comprehensive Analysis:** The project provides a multifaceted view of sales performance, covering various critical aspects from annual sales growth to product-specific data.
 - [x] **Actionable Insights:** The analysis helps stakeholders make informed decisions by highlighting key trends, such as successful new products and high-performing markets.
 - [x] **Data-Driven Decision Making:** By understanding the top and bottom-performing products and countries, the company can strategically adjust its sales and marketing efforts.
-- [x] **Year-on-Year Comparison:** Comparing data from 2020 to 2021 offers a clear picture of growth or decline, helping to gauge the effectiveness of business strategies.
+- [x] **Year-on-Year Comparison:** Comparing data from 2019 to 2021 offers a clear picture of growth or decline, helping to gauge the effectiveness of business strategies.
 
  
 ## Prerequisites
@@ -66,13 +66,12 @@ This Project contains an Excel-based project that involves data cleaning, data m
 - Basic understanding of Excel functions and formulas
 - Familiarity with Power Query and DAX (optional, but helpful)
 
-###  Who Maintains the Project
- #### Project Maintainer
+## Project Maintainer
 
-This project is maintained by **Hritik Sundriyal**. For any inquiries, issues, or suggestions regarding the project, please reach out via ayushsundriyal09213@gmail.com 
+This project is maintained by **Gunta Srikanth**. For any inquiries, issues, or suggestions regarding the project, please reach out via guntasrikanth@gmail.com 
   Contributions and feedback are welcome to improve the analysis and insights provided.
 
 
 1. **Clone the Repository:**
    ```bash
-   git clone  https://hritiksundriyal.github.io/Excel-Sales-Analytics/
+   git clone  [https://github.com/guntasrikanth/Data_Analyst_Portfolio/tree/main/Projects/Excel%20Projects/AtliQ%20Sales%20%26%20Finance%20Report]
