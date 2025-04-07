@@ -1,71 +1,70 @@
-# Lok Sabha Election Results 2024 - Data Analysis Report
+# Atliq_Hospitality_PowerBI_Analysis
 
-Welcome to the **Data Analysis Report on the Lok Sabha Election Results 2024** repository. This project provides a comprehensive analysis of the 2024 Lok Sabha election results, highlighting key insights into voting patterns, demographic influences, regional trends, and more.
+Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)_#1
 
-## Table of Contents
+Link to the _[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzBhYTNiNDEtNDdjYS00NGU1LTkwYzYtZWJlMmY0NjI5NmZjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
 
-- [Introduction](#introduction)
-- [Descritpion of Dataset](#description-of-dataset)
-- [Data Collection](#data-collection)
-- [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-- [Contact](#contact)
+https://github.com/user-attachments/assets/3aeb063b-c966-427f-a6a6-9508c3738e75
 
-## Introduction
+## Problem statement
 
-This repository contains a detailed analysis of the 2024 Lok Sabha election results. Our goal is to provide valuable insights through data-driven approaches, exploring various dimensions of the election outcomes.
+AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, AtliQ Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate “Business and Data Intelligence” to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
-## Description of Dataset
+Their revenue management team had decided to hire a third-party service provider to provide insights from their historical data.
 
-The dataset for the Lok Sabha Election Results 2024 contains comprehensive information about the election outcomes across various states and union territories in India. The data is sourced from the official Election Commission of India website and includes detailed results such as:
+## Task list
 
-#### Party-wise Results: 
-This table provides an overview of the election results for each political party, including the number of seats won and the party’s alliance affiliation. For instance, the Bharatiya Janata Party (BJP) won 240 seats nationwide, while the Indian National Congress (INC) secured 99 seats.
+As a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task, the required inputs are located _[here](https://github.com/Suryaprakashrathinam/Hospitality_PowerBI_Analysis/tree/main/Input%20Files)_.
 
-#### Constituency-wise Results: 
-Detailed outcomes for each parliamentary constituency. This includes the winning party, leading candidates, and total votes received and the margin of victory.
+1. Create the metrics according to the metric list.
+2. Create a dashboard according to the mock-up provided by stakeholders.
+3. Create relevant insights that are not provided in the metric list/mock-up dashboard.
 
-#### State-wise Results: 
-This table shows the constituency-level results by state, including the leading and trailing candidates, vote margins, and constituency status. It provides insights into the election outcomes for each state. For example, in Uttar Pradesh, the Samajwadi Party (SP) won 37 seats, BJP won 33, and INC won 6 seats.
+## Mock up dashboard
 
-#### Constituency-wise Details:: 
-This table contains detailed voting information for each candidate in a parliamentary constituency, including the number of EVM and postal votes, total votes, and percentage of votes.
+![mock up dashboard_atliq grands](https://github.com/user-attachments/assets/0e8d16e0-c1f0-40ab-9957-3a99af16a01d)
 
-#### States: 
-This table contains state name and their ID.
+## Data model
 
-#### Example Data Points:
-Tamil Nadu: DMK won 22 seats, INC won 9, VCK won 2, CPI and CPI(M) each won 2 seats.
-NCT of Delhi: BJP won all 7 seats.
-Telangana: BJP and INC each won 8 seats, and AIMIM won 1 seat.
-The dataset is crucial for analyzing the political landscape of India, understanding regional variations in voter behavior, and evaluating the performance of different political parties in the 2024 Lok Sabha elections.
+![Data Model](https://github.com/user-attachments/assets/d34a6296-0381-460d-a840-f30ce0a707ee)
+
+## Key learnings
+
+1.	Data Modelling
+2.	Calculated Measures and Columns
+3.	DAX (Data Analysis Expressions)
+4.	Effective Chart Selection
+5.	Tooltip selections and usage in business
+6.	Interactive Dashboard Development
+7.	Identifying Key Trends and Patterns
+8.	Providing Actionable Recommendations
+9.	Understanding Business Context
+
+## About Revenue
+
+![About revenue](https://github.com/user-attachments/assets/0a7b740a-ce71-4a91-8da5-15db3fd40471)
+
+- **Revenue tooltip**
+
+![tt_revenue](https://github.com/user-attachments/assets/2947a4b0-3af6-4566-9b84-7138550fd12f)
+
+- **Cancellation % tooltip**
+
+![tt_cancellation%](https://github.com/user-attachments/assets/b28940a7-47c8-4c46-be4d-2610fdb69681)
 
 
-## Data Collection
+## About KPI
 
-The data used in this analysis is sourced from:
-- Election Commission of India
-- News agencies
-- Other reliable sources
+![About KPI](https://github.com/user-attachments/assets/90253c9f-86b7-4cb3-8d7a-fd0878a91ccc)
 
-The raw datasets are available in the `DataBase` folder.
+## For Executives
 
-## Data Cleaning and Preprocessing
+![For Executives](https://github.com/user-attachments/assets/32647429-4994-41e3-b8a9-70181d0d9af1)
 
-Data Cleaning is done in Excel. The data is accurate, consistent, and ready for analysis.
+## Some important insights
+
+![Summary](https://github.com/user-attachments/assets/b105aa82-59da-4630-aedf-0dc8ffd5a401)
 
 
-### Clone the  Repository
 
-```sh
-git clone https://github.com/yourusername/loksabha-election-results-2024.git
-```
 
-### Install dependencies
-
-```sh
-pip install -r requirements.txt
-```
-
-## Contact
-
-If you have any feedback or query, please reach out to me at guntasrikanth@gmail.com.
