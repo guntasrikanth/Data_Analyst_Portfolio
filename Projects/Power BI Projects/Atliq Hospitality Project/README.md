@@ -14,7 +14,7 @@ Their revenue management team had decided to hire a third-party service provider
 
 ## Task list
 
-As a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task, the required inputs are located _[here](https://github.com/Suryaprakashrathinam/Hospitality_PowerBI_Analysis/tree/main/Input%20Files)_.
+As a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task, the required inputs are located _[here](https://github.com/guntasrikanth/Data_Analyst_Portfolio/tree/b30d3804de05b1ba6368b35170b0c6d88ce3b531/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Sets)_.
 
 1. Create the metrics according to the metric list.
 2. Create a dashboard according to the mock-up provided by stakeholders.
