@@ -1,12 +1,13 @@
-# Atliq_Hospitality_PowerBI_Analysis
+# Atliq Hospitality Analysis
 
 Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)_#1
 
 Link to the _[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzBhYTNiNDEtNDdjYS00NGU1LTkwYzYtZWJlMmY0NjI5NmZjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
 
-https://github.com/user-attachments/assets/3aeb063b-c966-427f-a6a6-9508c3738e75
+## 📊 Project Overview
+This **Power** BI-driven **Hospitality Insights Dashboard** is designed to provide comprehensive analytics for the hospitality industry. It enables stakeholders to track key performance metrics such as **revenue trends, occupancy rates, and booking platform efficiency,** offering valuable insights to support strategic decision-making. By visualizing data in an intuitive and interactive format, the dashboard helps businesses optimize operations, enhance profitability, and respond proactively to market dynamics. Its user-friendly interface ensures seamless exploration of hospitality metrics for data-driven growth.
 
-## Problem statement
+## 🎯Problem statement
 
 AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, AtliQ Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate “Business and Data Intelligence” to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
@@ -26,45 +27,34 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 
 ## Data model
 
-![Data Model](https://github.com/user-attachments/assets/d34a6296-0381-460d-a840-f30ce0a707ee)
+![Data Model](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Model.png)
 
-## Key learnings
+## 🚀 Key Features
+- **Revenue Analysis**
+  - Total Revenue: ₹1.69B
+  - Revenue per Available Room (RevPAR): ₹7,337
+  - Average Daily Rate (ADR): ₹12.70K
+- **Occupancy Metrics**
+  - Occupancy Rate: 57.8%
+  - Realization Rate: 70.1%
+- **Platform Performance**
+  - Comparison of Realization % and ADR across booking platforms.
+- **City and Property Insights**
+  - Detailed breakdown of performance metrics by city and property type.
 
-1.	Data Modelling
-2.	Calculated Measures and Columns
-3.	DAX (Data Analysis Expressions)
-4.	Effective Chart Selection
-5.	Tooltip selections and usage in business
-6.	Interactive Dashboard Development
-7.	Identifying Key Trends and Patterns
-8.	Providing Actionable Recommendations
-9.	Understanding Business Context
+## 🔍 Insights Highlighted
+- Weekly trends for **RevPAR**, **ADR**, and **Occupancy Rate**.
+- Performance comparison between **Business** and **Luxury** categories.
+- City-wise and platform-wise trends to identify high-performing segments.
 
-## About Revenue
+## 🎓 Learning Experience
+- Data transformation in Power Query.
+- Designing interactive dashboards in Power BI.
+- Presenting data in an intuitive and visually appealing manner.
 
-![About revenue](https://github.com/user-attachments/assets/0a7b740a-ce71-4a91-8da5-15db3fd40471)
+## 🛠️ Tools Used
+- **Power BI**: For data visualization and dashboard design.
+- **Power Query**: For data transformation and cleaning.
 
-- **Revenue tooltip**
-
-![tt_revenue](https://github.com/user-attachments/assets/2947a4b0-3af6-4566-9b84-7138550fd12f)
-
-- **Cancellation % tooltip**
-
-![tt_cancellation%](https://github.com/user-attachments/assets/b28940a7-47c8-4c46-be4d-2610fdb69681)
-
-
-## About KPI
-
-![About KPI](https://github.com/user-attachments/assets/90253c9f-86b7-4cb3-8d7a-fd0878a91ccc)
-
-## For Executives
-
-![For Executives](https://github.com/user-attachments/assets/32647429-4994-41e3-b8a9-70181d0d9af1)
-
-## Some important insights
-
-![Summary](https://github.com/user-attachments/assets/b105aa82-59da-4630-aedf-0dc8ffd5a401)
-
-
-
-
+## 🔗 Conclusion
+This dashboard is a powerful example of how data visualization can drive meaningful insights in the hospitality industry. By leveraging tools like Power BI and Power Query, we can transform raw data into actionable knowledge, enabling better decision-making and performance analysis. Thank you for exploring this project!
