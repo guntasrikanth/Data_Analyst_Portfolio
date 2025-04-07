@@ -29,18 +29,6 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 
 ![Data Model](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Model.png)
 
-## Key learnings
-
-1.	Data Modelling
-2.	Calculated Measures and Columns
-3.	DAX (Data Analysis Expressions)
-4.	Effective Chart Selection
-5.	Tooltip selections and usage in business
-6.	Interactive Dashboard Development
-7.	Identifying Key Trends and Patterns
-8.	Providing Actionable Recommendations
-9.	Understanding Business Context
-
 ## 🚀 Key Features
 - **Revenue Analysis**
   - Total Revenue: ₹1.69B
