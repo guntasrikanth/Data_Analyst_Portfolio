@@ -26,7 +26,7 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 
 ## Data model
 
-![Data Model](https://github.com/user-attachments/assets/d34a6296-0381-460d-a840-f30ce0a707ee)
+![Data Model](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Model.png)
 
 ## Key learnings
 
