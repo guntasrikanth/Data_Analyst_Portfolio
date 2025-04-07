@@ -4,6 +4,9 @@ Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-proj
 
 Link to the _[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzBhYTNiNDEtNDdjYS00NGU1LTkwYzYtZWJlMmY0NjI5NmZjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
 
+## 📊 Project Overview
+This **Power** BI-driven **Hospitality Insights Dashboard** is designed to provide comprehensive analytics for the hospitality industry. It enables stakeholders to track key performance metrics such as **revenue trends, occupancy rates, and booking platform efficiency,** offering valuable insights to support strategic decision-making. By visualizing data in an intuitive and interactive format, the dashboard helps businesses optimize operations, enhance profitability, and respond proactively to market dynamics. Its user-friendly interface ensures seamless exploration of hospitality metrics for data-driven growth.
+
 ## 🎯Problem statement
 
 AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, AtliQ Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate “Business and Data Intelligence” to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
@@ -37,9 +40,6 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 7.	Identifying Key Trends and Patterns
 8.	Providing Actionable Recommendations
 9.	Understanding Business Context
-
-## 📊 Project Overview
-This **Hospitality Insights Dashboard** was created using **Power BI** to analyze key performance metrics in the hospitality industry. The dashboard provides actionable insights into revenue, occupancy, and platform performance, helping stakeholders make data-driven decisions.
 
 ## 🚀 Key Features
 - **Revenue Analysis**
