@@ -39,32 +39,3 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 7.	Identifying Key Trends and Patterns
 8.	Providing Actionable Recommendations
 9.	Understanding Business Context
-
-## About Revenue
-
-![About revenue](https://github.com/user-attachments/assets/0a7b740a-ce71-4a91-8da5-15db3fd40471)
-
-- **Revenue tooltip**
-
-![tt_revenue](https://github.com/user-attachments/assets/2947a4b0-3af6-4566-9b84-7138550fd12f)
-
-- **Cancellation % tooltip**
-
-![tt_cancellation%](https://github.com/user-attachments/assets/b28940a7-47c8-4c46-be4d-2610fdb69681)
-
-
-## About KPI
-
-![About KPI](https://github.com/user-attachments/assets/90253c9f-86b7-4cb3-8d7a-fd0878a91ccc)
-
-## For Executives
-
-![For Executives](https://github.com/user-attachments/assets/32647429-4994-41e3-b8a9-70181d0d9af1)
-
-## Some important insights
-
-![Summary](https://github.com/user-attachments/assets/b105aa82-59da-4630-aedf-0dc8ffd5a401)
-
-
-
-
