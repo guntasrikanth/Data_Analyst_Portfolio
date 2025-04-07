@@ -4,7 +4,7 @@ Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-proj
 
 Link to the _[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzBhYTNiNDEtNDdjYS00NGU1LTkwYzYtZWJlMmY0NjI5NmZjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
 
-## Problem statement
+## 🎯Problem statement
 
 AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, AtliQ Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate “Business and Data Intelligence” to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
@@ -60,7 +60,6 @@ This **Hospitality Insights Dashboard** was created using **Power BI** to analyz
 - City-wise and platform-wise trends to identify high-performing segments.
 
 ## 🎓 Learning Experience
-This project was created by following the **Codebasics YouTube tutorial**, with guidance from **Dhaval Patel**, **Hemanand Vadivel**, and **Abhishek Anand**. It was a great opportunity to learn about:
 - Data transformation in Power Query.
 - Designing interactive dashboards in Power BI.
 - Presenting data in an intuitive and visually appealing manner.
@@ -68,9 +67,6 @@ This project was created by following the **Codebasics YouTube tutorial**, with 
 ## 🛠️ Tools Used
 - **Power BI**: For data visualization and dashboard design.
 - **Power Query**: For data transformation and cleaning.
-
-## 🙌 Acknowledgements
-Big thanks to **Codebasics**, **Dhaval Patel**, **Hemanand Vadivel**, and **Abhishek Anand** for the amazing tutorial and guidance.
 
 ## 🔗 Conclusion
 This dashboard is a powerful example of how data visualization can drive meaningful insights in the hospitality industry. By leveraging tools like Power BI and Power Query, we can transform raw data into actionable knowledge, enabling better decision-making and performance analysis. Thank you for exploring this project!
