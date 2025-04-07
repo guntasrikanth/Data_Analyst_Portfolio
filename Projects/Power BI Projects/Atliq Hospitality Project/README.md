@@ -22,7 +22,7 @@ As a data analyst who has been provided with sample data and a mock-up dashboard
 
 ## Mock up dashboard
 
-![mock up dashboard_atliq grands](https://github.com/user-attachments/assets/0e8d16e0-c1f0-40ab-9957-3a99af16a01d)
+![mock up dashboard_atliq grands](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Model.png)
 
 ## Data model
 
