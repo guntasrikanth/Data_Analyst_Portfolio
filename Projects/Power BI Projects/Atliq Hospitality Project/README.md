@@ -1,4 +1,4 @@
-# Atliq_Hospitality_PowerBI_Analysis
+# Atliq Hospitality Analysis
 
 Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)_#1
 
