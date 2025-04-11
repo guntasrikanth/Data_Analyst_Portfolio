@@ -1,60 +1,57 @@
-# Atliq Hospitality Analysis
+# 🌍 Global Business Insights 360 – AtliQ Hardware
 
-Link to the  _[Challenge](https://codebasics.io/challenge/codebasics-resume-project-challenge)_#1
+**Welcome to Business Insights 360 – A Power BI Dashboard for Smarter Decisions!**  
 
-Link to the _[Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzBhYTNiNDEtNDdjYS00NGU1LTkwYzYtZWJlMmY0NjI5NmZjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
+This project showcases a powerful and interactive **Power BI dashboard** designed to analyze and visualize key metrics across multiple departments of **AtliQ Hardware**. It delivers actionable insights in areas like **finance**, **sales**, **marketing**, **supply chain**, and **executive operations**—helping stakeholders make informed decisions to drive business growth.
 
-## 📊 Project Overview
-This **Power** BI-driven **Hospitality Insights Dashboard** is designed to provide comprehensive analytics for the hospitality industry. It enables stakeholders to track key performance metrics such as **revenue trends, occupancy rates, and booking platform efficiency,** offering valuable insights to support strategic decision-making. By visualizing data in an intuitive and interactive format, the dashboard helps businesses optimize operations, enhance profitability, and respond proactively to market dynamics. Its user-friendly interface ensures seamless exploration of hospitality metrics for data-driven growth.
+## **📋 Project Overview**
+**AtliQ Hardware** operates globally, specializing in hardware products such as personal computers, printers, and accessories, etc. This project focuses on building a **Power BI dashboard** to analyze their global **sales performance**, **regional insights**, and **profitability metrics**. The dashboard is designed to deliver a **360-degree view** of business operations, Enable quick insights for business operations, helping stakeholders make informed decisions in areas like **customer negotiations**, **product launches**, and **finance planning**.  
 
 ## 🎯Problem statement
+AtliQ Hardware is growing fast, but its old way of using Excel for data analysis is not working. This led to a big loss in Latin America. The company needs a better way to analyze data to make good decisions and keep growing. Specifically, AtliQ struggles to gain insights into its business performance, identify trends, uncover revenue opportunities, and address challenges. A comprehensive data analytics solution is urgently needed to inform strategic decision-making.
 
-AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, AtliQ Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate “Business and Data Intelligence” to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
-Their revenue management team had decided to hire a third-party service provider to provide insights from their historical data.
+## 🗂️Data Source 
+The dashboard integrates data from:  
+1. **Excel/CSV Files**: For targets, market share, and supporting information.  
+2. **MySQL Database**: For core business facts and dimensions across departments.  
 
-## Task list
+## 💡Key Techniques and Methodology
+1. **Data Integration**: Merging multiple sources like Excel/CSV and MySQL.
+2. **Data Cleaning**: Handled missing data, outliers, and data inconsistencies to ensure accuracy.
+3. **Data Exploration**: Performed initial exploratory data analysis (EDA) to understand patterns and trends.
+4. **Data Modeling**: Star Schema and Snowflake Schema.
+6. **DAX Calculations**: Calculated measures for profit margins, net sales, and KPIs.
+7. **Visualization**: Used Power BI and Excel to create visual representations of the key findings.
+8. **Analysis**: Analyzed the data to uncover correlations, trends, and performance gaps.
 
-As a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task, the required inputs are located _[here](https://github.com/guntasrikanth/Data_Analyst_Portfolio/tree/b30d3804de05b1ba6368b35170b0c6d88ce3b531/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Sets)_.
+Link to the _[Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNTFlM2NlMTUtZjYyZS00NzM5LTkwN2QtYzYwZGJmYWRlM2EzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)_
 
-1. Create the metrics according to the metric list.
-2. Create a dashboard according to the mock-up provided by stakeholders.
-3. Create relevant insights that are not provided in the metric list/mock-up dashboard.
+## Project Hightlights
 
-## Mock up dashboard
+- **🏠𝐇𝐨𝐦𝐞 𝐏𝐚𝐠𝐞:** The central hub is designed for effortless navigation, offering swift entry to crucial information.
 
-![mock up dashboard_atliq grands](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Model.png)
+- **💰𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐕𝐢𝐞𝐰:** Vital financial key performance indicators (KPIs), interactive charts, and adaptable parameters for a comprehensive financial analysis.
 
-## Data model
+- **📈𝐒𝐚𝐥𝐞𝐬 𝐕𝐢𝐞𝐰:** Gain insights into sales dynamics through scatter charts, product/customer performance data, and donut charts.
 
-![Data Model](https://github.com/guntasrikanth/Data_Analyst_Portfolio/raw/main/Projects/Power%20BI%20Projects/Atliq%20Hospitality%20Project/Data%20Model.png)
+- **📢𝐌𝐚𝐫𝐤𝐞𝐭𝐢𝐧𝐠 𝐕𝐢𝐞𝐰:** Explore in-depth marketing insights, including segment performance, waterfall charts, and versatile tables.
 
-## 🚀 Key Features
-- **Revenue Analysis**
-  - Total Revenue: ₹1.69B
-  - Revenue per Available Room (RevPAR): ₹7,337
-  - Average Daily Rate (ADR): ₹12.70K
-- **Occupancy Metrics**
-  - Occupancy Rate: 57.8%
-  - Realization Rate: 70.1%
-- **Platform Performance**
-  - Comparison of Realization % and ADR across booking platforms.
-- **City and Property Insights**
-  - Detailed breakdown of performance metrics by city and property type.
+- **🚚𝐒𝐮𝐩𝐩𝐥𝐲 𝐂𝐡𝐚𝐢𝐧 𝐕𝐢𝐞𝐰:** Streamline the supply chain by utilizing key metrics, trend charts, and detailed breakdowns.
 
-## 🔍 Insights Highlighted
-- Weekly trends for **RevPAR**, **ADR**, and **Occupancy Rate**.
-- Performance comparison between **Business** and **Luxury** categories.
-- City-wise and platform-wise trends to identify high-performing segments.
+- **👨🏻‍💼𝐄𝐱𝐞𝐜𝐮𝐭𝐢𝐯𝐞 𝐕𝐢𝐞𝐰:** An essential section tailored for executives, delivering crucial metrics, revenue contributions, trend charts, and detailed tables.
 
-## 🎓 Learning Experience
-- Data transformation in Power Query.
-- Designing interactive dashboards in Power BI.
-- Presenting data in an intuitive and visually appealing manner.
+## 🏆 **Why This Project Stands Out**  
+
+- **Actionable Insights**: Helps stakeholders prioritize tasks and decisions with clear data trends.  
+- **Interactive Design**: Simplifies complex datasets into user-friendly visuals.  
+- **Scalability**: Easily integrates additional data sources and metrics for future needs.  
 
 ## 🛠️ Tools Used
 - **Power BI**: For data visualization and dashboard design.
 - **Power Query**: For data transformation and cleaning.
+- **MySql**: For data storage and seamless integration.
 
 ## 🔗 Conclusion
-This dashboard is a powerful example of how data visualization can drive meaningful insights in the hospitality industry. By leveraging tools like Power BI and Power Query, we can transform raw data into actionable knowledge, enabling better decision-making and performance analysis. Thank you for exploring this project!
+This project is a powerful example of how data analysis can drive meaningful business insights. By leveraging tools like Power BI, Power Query, and MySQL, we transform raw data into actionable knowledge, enabling better decision-making and performance optimization. With advanced modeling, visualization, and analytics, businesses can uncover trends, optimize resources, and enhance profitability. Thank you for exploring this project! 🚀
+
